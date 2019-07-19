@@ -11,62 +11,45 @@ header {
 	height: 100vh;
 }
 
-
 #logo {
-	margin: -3.5% 45%;
+	display: block;
+	margin: auto;
+}
+
+#title{
 	position: absolute;
-
-
+	margin: 25% 0 0 2%;
 }
 
-h1 {
-	color: white;
-	
-
-}
-
-h2  {
-
-}
-
-#bouton {
-	background-color: white;
-	margin-left: 70%;
-}
-
-
-/* main */
-
-
-/* SECTION 1 */
-#article1, #article2, #article3 {
-	height: 50%;
-}
-
-/* ARTICLE 1 */
-
-/* ARTCILE 2 */
-
-/* ARTICLE 3 */
-
-/* SECTION 2 */
-form {
+#article1 img, #article2 img{
 	width: 50%;
-	border: 2px solid red;
-	float: right;
-}
-.textt {
-	margin-bottom: 2%;
-	padding: 10px 20px;
-	width: 70%;
-
 }
 
-input[type=submit] {
+#article3 img{
+	width:;
+}
+
+#section2{
+	background-image: url('../img/form.png');
+	height: 100vh;
+}
+
+form{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+input[type=text], input[type=email], input[type=tel] {
+	width: 60%;
+	margin: 1%;
+	padding: 12px 15px;
+}
+
+input[type=submit]{
+	width: 30%;
 	background-color: #000;
-	color: #FFF;
-	font-size: 16px;
-	padding: 10px 20px;
-	margin-left: 30%;
+	margin-left: 50%;
+	padding: 12px 15px;
+	color: white;
 }
-
