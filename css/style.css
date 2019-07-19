@@ -1,0 +1,72 @@
+* {
+	margin:0; 
+	padding:0;
+}
+
+/* header */
+
+header {
+	background-image: url('../img/header.png');
+	background-size: cover;
+	height: 100vh;
+}
+
+
+#logo {
+	margin: -3.5% 45%;
+	position: absolute;
+
+
+}
+
+h1 {
+	color: white;
+	
+
+}
+
+h2  {
+
+}
+
+#bouton {
+	background-color: white;
+	margin-left: 70%;
+}
+
+
+/* main */
+
+
+/* SECTION 1 */
+#article1, #article2, #article3 {
+	height: 50%;
+}
+
+/* ARTICLE 1 */
+
+/* ARTCILE 2 */
+
+/* ARTICLE 3 */
+
+/* SECTION 2 */
+form {
+	width: 50%;
+	border: 2px solid red;
+	float: right;
+}
+.textt {
+	margin-bottom: 2%;
+	padding: 10px 20px;
+	width: 70%;
+
+}
+
+input[type=submit] {
+	background-color: #000;
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px 20px;
+	margin-left: 30%;
+}
+
