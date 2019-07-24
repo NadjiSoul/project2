@@ -65,17 +65,19 @@ p{
 #article1, #article2,#article3{
 	display: flex;
 } 	/* #div1 car la flemme de donner des ids classe xptdr */
-	.width{width: 50%;}
+	.width{width: 50%;
+	}
 
 .bloc{
-	display: flex;}
-.bloc img{
-	width: 50%;
+	display: flex;
 }
-.bloc img:hover{
-	opacity: 0.5;
-	cursor: pointer;
-}
+	.bloc img{
+		width: 50%;
+	}
+		.bloc img:hover{
+			opacity: 0.5;
+			cursor: pointer;
+		}
 /* ARTICLE 1 */
 
 /* ARTICLE 2 */
@@ -83,6 +85,27 @@ p{
 	display: flex;
 	flex-direction: row-reverse;
 }
+
+table {
+	margin: 25% auto;
+  	border-collapse: collapse; border: 2px solid blue;
+	width: 80%;
+}
+
+td {
+	padding: 2% 0;
+	
+}
+.tdm{
+	text-align: right;
+}
+
+.border{
+	border-bottom: 2px solid black;
+
+}
+
+
 /* ARTICLE 3 */
 #blocart3{
 	width:50%;
