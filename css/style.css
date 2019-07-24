@@ -1,38 +1,103 @@
-* {
-	margin:0; 
-	padding:0;
+*{
+	margin: 0;
+	padding: 0;
 }
 
-/* header */
+body{
+	width:100%;
+}
+/* HEADER */
 
-header {
-	background-image: url('../img/header.png');
-	background-size: cover;
-	height: 100vh;
+
+#title h1{
+	font-family: 'Playfair Display';
+	font-size: 85pt;
+}
+#title h2{
+	font-size: 64pt;
 }
 
-#logo {
-	display: block;
-	margin: auto;
+
+#header{
+	width:100%;
+}
+	#inheader{
+		width: 100%;
+		position: absolute;
+	}
+	#logo img{
+		display: flex;
+		margin: auto;
+		width: 5%;
+	}
+
+	#title{
+		margin-top: 10%;
+		color: #FFF;
+	}
+
+/* SECTION 1 */
+
+#section1 h2{
+	font-size: 48pt;
+}
+#section1 h4{
+	font-size: 20pt;
+}
+#section1 p{
+	font-family: Lato;
+	font-size: 24pt;
 }
 
-#title{
-	position: absolute;
-	margin: 25% 0 0 2%;
-}
 
-#article1 img, #article2 img{
+
+#article1, #article2,#article3{
+	display: flex;
+} 	/* #div1 car la flemme de donner des ids classe xptdr */
+	.width{width: 50%;}
+
+.bloc{
+	display: flex;}
+.bloc img{
 	width: 50%;
 }
-
-#article3 img{
-	width:;
+.bloc img:hover{
+	opacity: 0.5;
+	cursor: pointer;
 }
+/* ARTICLE 1 */
+
+/* ARTICLE 2 */
+#article2{
+	display: flex;
+	flex-direction: row-reverse;
+}
+/* ARTICLE 3 */
+#blocart3{
+	width:50%;
+}
+/* SECTION 2 */
 
 #section2{
+	width:100%;
 	background-image: url('../img/form.png');
-	height: 100vh;
+	background-size:cover;
+	background-position: 50%;
 }
+
+#section2 h2{
+	font-size:72pt;
+}
+#section2 h3{
+	font-size: 36pt;
+}
+/* FOOTER */
+
+footer{
+	background-color: #000; color: #FFF;
+}
+/* Form */
+
 
 form{
 	width: 50%;
