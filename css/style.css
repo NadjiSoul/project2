@@ -15,18 +15,22 @@ h1, h2,h3{
 }
 
 p{
-	font-family: Lato, serif;
+	font-family: Lato, sans-serif;
 }
 
 /* HEADER */
 
 #title h1{
-	font-size: 40pt;
+	font-size: 55pt;
+	margin-top: 23%;
+	margin-left: 5%;
+	width: 75%;
+	line-height: 100%;
 }
 #title h2{
-	font-family: 'Playfair Display',serif;
-	font-size: 35pt;
+	font-size: 40pt;
 	font-weight: normal;
+	margin-left: 5%;
 }
 
 
@@ -52,12 +56,27 @@ p{
 
 #section1 h2{
 	font-size: 25pt;
+	margin: auto;
+	margin-left: 10%;
+	width: 70%;
+	font-weight: normal;
+
 }
 #section1 h3{
-	font-size: 15pt;
+	font-size: 10pt;
+	margin: auto;
+	margin-left: 10%;
+	margin-bottom: 5%
+
 }
 #section1 p{
-	font-size: 20pt;
+	font-size: 15pt;
+	margin: auto;
+	margin-left: 10%;
+	margin-top: 3%;
+	width: 85%;
+
+
 }
 
 #article1, #article2,#article3{
