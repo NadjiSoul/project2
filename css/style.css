@@ -21,11 +21,11 @@ p{
 /* HEADER */
 
 #title h1{
-	font-size: 85pt;
+	font-size: 40pt;
 }
 #title h2{
 	font-family: 'Playfair Display',serif;
-	font-size: 64pt;
+	font-size: 35pt;
 	font-weight: normal;
 }
 
@@ -51,33 +51,23 @@ p{
 /* SECTION 1 */
 
 #section1 h2{
-	font-size: 48pt;
+	font-size: 25pt;
 }
 #section1 h3{
-	font-size: 20pt;
+	font-size: 15pt;
 }
 #section1 p{
-	font-size: 24pt;
+	font-size: 20pt;
 }
-
-
 
 #article1, #article2,#article3{
 	display: flex;
-} 	/* #div1 car la flemme de donner des ids classe xptdr */
-	.width{width: 50%;
-	}
-
-.bloc{
-	display: flex;
-}
-	.bloc img{
+} 	
+	.width{
 		width: 50%;
 	}
-		.bloc img:hover{
-			opacity: 0.5;
-			cursor: pointer;
-		}
+
+
 /* ARTICLE 1 */
 
 /* ARTICLE 2 */
@@ -87,13 +77,14 @@ p{
 }
 
 table {
-	margin: 25% auto;
-  	border-collapse: collapse; border: 2px solid blue;
-	width: 80%;
+	margin: 15% auto;
+  	border-collapse: collapse;
+	width: 90%;
 }
 
 td {
 	padding: 2% 0;
+	font-size: 18pt;
 	
 }
 .tdm{
@@ -105,50 +96,94 @@ td {
 
 }
 
-
 /* ARTICLE 3 */
 #blocart3{
 	width:50%;
 }
+
+.bloc{
+	display: flex;
+}
+	.bloc img{
+		width: 50%;
+		opacity: 0.5;
+	}
+		.bloc img:hover{
+			opacity: 1;
+			cursor: pointer;
+		}
 /* SECTION 2 */
 
 #section2{
 	width:100%;
 	background-image: url('../img/form.png');
-	background-size:cover;
-	background-position: 50%;
+	display: flex;
 }
 
 #section2 h2{
-	font-size:72pt;
+	font-size:35pt;
 }
 #section2 h3{
-	font-size: 36pt;
+	font-size: 30pt;
 }
-/* FOOTER */
 
-footer{
-	background-color: #000; color: #FFF;
-}
 /* Form */
 
 
 form{
-	width: 50%;
+	width:40%;
 	display: flex;
 	flex-direction: column;
+	margin-left: auto;
+	padding: 13% 0;
+	/*border:2px solid green;*/
 }
 
 input[type=text], input[type=email], input[type=tel] {
-	width: 60%;
-	margin: 1%;
+	width: 70%;
+	margin: 1% auto;
 	padding: 12px 15px;
 }
 
 input[type=submit]{
 	width: 30%;
 	background-color: #000;
-	margin-left: 50%;
+	margin:auto;
 	padding: 12px 15px;
 	color: white;
 }
+
+/* FOOTER */
+
+footer{
+	background-color: #000; color: #FFF;
+	display: flex;
+	justify-content: space-around;
+}
+
+#bottom{
+	/*border: 2px solid blue;*/
+	width: 50%;
+	display: flex;
+}
+.footbloc{
+	/*border:3px solid red;*/
+	width: 50%;
+	padding: 5%;
+}
+	.footbloc li{
+		list-style: none;
+	}
+	.footbloc a{
+		text-decoration: none;
+		color: #FFF;
+	}
+
+
+.pub{
+	/*border: 2px solid red;*/
+	padding: 3%;
+}
+	.footbloc ul, .pub img{
+		margin-top: 10%;
+	}
