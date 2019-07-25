@@ -52,6 +52,29 @@ p{
 		color: #FFF;
 	}
 
+/* BUTTON */
+#title a{
+	width: 155px;
+	padding: 1%;
+	display: flex;
+	background-color: #FFF;
+	margin: 1% auto 0 auto;
+	cursor: pointer;
+	text-decoration: none;
+	color : #000;
+
+}
+	#title a:hover{
+	opacity: 0.5;
+	}
+
+	a img{
+		width: 15%;
+	}
+	a span{
+		padding: 1px;
+		margin-top: 2px;
+	}
 /* SECTION 1 */
 
 #section1 h2{
@@ -74,7 +97,6 @@ p{
 	margin-left: 10%;
 	margin-top: 3%;
 	width: 85%;
-	border: 2px solid red;
 
 }
 
@@ -158,19 +180,23 @@ form{
 }
 
 input[type=text], input[type=email], input[type=tel] {
-	width: 70%;
+	width: 320px;
 	margin: 1% auto;
 	padding: 12px 15px;
 }
 
 input[type=submit]{
-	width: 30%;
+	width: 150px;
 	background-color: #000;
 	margin:auto;
 	padding: 12px 15px;
 	color: white;
 }
-
+	input[type=submit]:hover{
+		background-color: #FFF;
+		color:#000;
+		cursor: pointer;
+	}
 /* FOOTER */
 
 footer{
@@ -209,6 +235,7 @@ footer{
 
 @media screen and (max-width: 929px){
 	#title h1{
+		margin-top: 0;
 		font-size: 30pt;
 	}
 	#title h2{
@@ -219,17 +246,22 @@ footer{
 		margin: auto;
 	}
 	#section1 h2, #section1 h3{
-		margin-left: 5%;
+		margin-left: 2.5%;
 	}
 	#section1 p{
 		width: 90%;
-		margin-left: 5%;
-	font-size: 15pt;
+		margin-left: 2.5%;
+		font-size: 15pt;
 
 }
 	#article1, #article2,#article3{
-	display: flex;
 	flex-direction: column;
+	width: 95%;
+	margin: auto;
+}
+	#article1, #article2{
+		padding: 2% 0;
+		border-bottom: 2px dotted black;
 	}
 
 	.width, #blocart3{
@@ -238,22 +270,40 @@ footer{
 	}
 	#article1 img,#article2 img,#article3 img{
 		width: 50%;
+		border-radius: 5px;
+	}
+	#article1 img{
+		margin-top:10%;
+	}
+	#blocart3{
+		padding: 10% 0 1% 0;
+	}
+	#section2{
+		flex-direction: column;
+	}
+	#section2 h2{
+		font-size: 25pt;
+		text-align: center;
+	}
+	#section2 h3{
+		font-size: 20pt;
+		text-align: center;
+	}
+/* FORM */
+	form{
+		margin: auto;
+		width: 90%;
+	}
+	input[type=text],input[type=email], input[type=tel]{
+		width: 320px;
+	}
+	input[type=submit]{
+		width: 150px;
 	}
 
 /* BUTTON */
-button{
-	width: 150px;
-	padding: 1%;
-	display: flex;
-	background-color: #FFF;
-	margin: 1% auto 0 auto;
-	border-radius: 5px;
-}
-	button img{
-		width: 15%;
-	}
 
-	button p{
-		padding: 1%;
-	}
+#title a{
+	border-radius: 4px;
+}
 }
