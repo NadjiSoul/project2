@@ -102,7 +102,7 @@ p{
 
 #article1, #article2,#article3{
 	display: flex;
-} 	
+} 
 	.width{
 		width: 50%;
 	}
@@ -117,7 +117,7 @@ p{
 }
 
 table {
-	margin: 15% auto;
+	margin: 1% auto 0;
   	border-collapse: collapse;
 	width: 90%;
 }
@@ -191,6 +191,7 @@ input[type=submit]{
 	margin:auto;
 	padding: 12px 15px;
 	color: white;
+	border:none;
 }
 	input[type=submit]:hover{
 		background-color: #FFF;
@@ -233,7 +234,9 @@ footer{
 	}
 
 
-@media screen and (max-width: 929px){
+@media screen and (max-width: 981px){
+
+	/* Title */
 	#title h1{
 		margin-top: 0;
 		font-size: 30pt;
@@ -241,6 +244,8 @@ footer{
 	#title h2{
 		font-size: 20pt;
 	}
+
+	/* SECTION */
 	#section1{
 		width: 100%;
 		margin: auto;
@@ -254,14 +259,19 @@ footer{
 		font-size: 15pt;
 
 }
-	#article1, #article2,#article3{
-	flex-direction: column;
-	width: 95%;
+
+	#article1, #article2{
+	flex-direction: column-reverse;
+	width: 100%;
 	margin: auto;
 }
+ 	#article3{
+ 		flex-direction: column;
+		width: 100%;
+		margin: auto;
+ 	}
 	#article1, #article2{
 		padding: 2% 0;
-		border-bottom: 2px dotted black;
 	}
 
 	.width, #blocart3{
@@ -269,11 +279,7 @@ footer{
 		width: 100%;
 	}
 	#article1 img,#article2 img,#article3 img{
-		width: 50%;
 		border-radius: 5px;
-	}
-	#article1 img{
-		margin-top:10%;
 	}
 	#blocart3{
 		padding: 10% 0 1% 0;
