@@ -164,7 +164,7 @@ footer{
 
 /* Minimum est la résolution de l'IPAD */
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 769px){
  /* ARTICLE */
  #art1, #art2, #art3para{
 	display: block;
@@ -177,17 +177,27 @@ button{
  }
 }
 
-/* Minimum est la résolution supérior à l'IPAD (techniquement un laptop ou autre connerie du genre */
+/* Minimum est la résolution à l'IPAD (techniquement un laptop ou autre connerie du genre */
 
-@media screen and (min-width: 1024px){
-	.arthidden{
-		display: none;
-	}
-	.hiddenart{
-		display: block;
-	}
+@media screen and (min-width: 1025px){
+.arthidden{
+	display: none;
+}
+.hiddenart{
+	display: block;
 }
 
-@media screen and (min-width: 1366px){
-	
+.art-a{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.art-b{
+	display: flex;
+	flex-direction: row;
+}
+
+#front,#back{
+	width:50%;
+}
+
 }
