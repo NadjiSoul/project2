@@ -166,6 +166,11 @@ footer{
 	flex-direction: column-reverse;
 }
 
+
+
+
+
+
 /* Minimum est la résolution de l'IPAD */
 
 @media screen and (min-width: 769px){
@@ -220,6 +225,28 @@ button{
 article{
 	margin: 0 auto;
 	padding: 0;
+}
+
+footer{
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+ div#bloc{
+ 	margin-left: -100px;
+ 	border: 2px solid grey;
+	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-between;
+
+}
+
+div.bloc1 {
+	padding: 60px 40px;
+}
+
+div.pub{
+	padding: 60px 2px;
 }
 
 }
