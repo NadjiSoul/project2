@@ -1,39 +1,44 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html>
 <head>
-	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet">
-	<title>BMW</title>
+	<title> BMW test</title>
 </head>
 <body>
-	<header>
-		<div id="inheader">
-			<div id="logo"> <img src="./img/logo.png"></div>
-			<div id="title">
-				<h1>Affrontez tous les obstacles avec élégance</h1>
-				<h2>Nouveau MCAR MC-I crossover</h2>
-				<a href="#section2"><img src="./img/button.png"><span>Demander un essai</span></a>
-			</div>
-		</div>
-		<img id="header" src="./img/header.png">
+	<header id="inheader">
+			<img class="logo" src="./img/logo.png">
+			<h1>Affrontez tous les obstacles avec élégance</h1>
+			<h2>Nouveau MCAR MC-I crossover</h2>
+			<a href=""><img src="./img/button.png"><span>Faire un essai</span></a>
 	</header>
 	<main>
 		<!-- SECTION 1 -->
 		<section id="section1">
 			<!-- ARTICLE 1 -->
-			<article id="article1">
-				<div class="width">
-					<h2>VISIONNAIRE SOUS TOUS LES ANGLES</h2>
-					<h3>Style futuriste</h3>
-					<p>La BMW i3 ne suit aucune tendance, elle est l'expression d'un style de vie asumé. Son langage stylistique futuriste lui confère égalemnt de la clareté à l'extérieur et une ambiance "lounge" à l'intérieur.</p> 
-					<p>Aménagée sous le signe de la légèreté, elle se démarque par l'emploi de matériaux durables et par une foison de détails fonctionnnels. Une voiture novatrice qui mise sur l'individualité.</p>
+			<article>
+				<div class="arthidden">
+				<h2>VISIONNAIRE SOUS TOUS LES ANGLES</h2>
+				<h3>Style futuriste</h3>
 				</div>
-				<img class="width" src="./img/front.png" alt="front of car">
+				<img id="front" src="./img/front.png">
+				<div id="art1">
+					<div class="hiddenart">
+						<h2>VISIONNAIRE SOUS TOUS LES ANGLES</h2>
+						<h3>Style futuriste</h3>
+					</div>
+						<p>La BMW i3 ne suit aucune tendance, elle est l'expression d'un style de vie asumé. Son langage stylistique futuriste lui confère égalemnt de la clareté à l'extérieur et une ambiance "lounge" à l'intérieur.</p> 
+						<p>Aménagée sous le signe de la légèreté, elle se démarque par l'emploi de matériaux durables et par une foison de détails fonctionnnels. Une voiture novatrice qui mise sur l'individualité.</p>
+				</div>
+
+					<button onclick="divart('art1'); " href="#"> En savoir + </button> 
 			</article>
 			<!-- ARTICLE 2 -->
-			<article id="article2">
-				<div class="width">
+			<article>
+				<div class="arthidden">
+					<h2> CARACTERISTIQUES </h2>
+				</div>
+				<img id="back"src="./img/back.png">
+				<div id=art2>
 					<table>
 						<tr>
 							<td class="border" class="tdw">Puissance du système en KW (ch)<br/>(225xe)</td>
@@ -52,62 +57,71 @@
 							<td class="tdm">61-52(3)</td>
 						</tr>
 					</table>
+				<p>La BMW i3 ne suit aucune tendance, elle est l'expression d'un style de vie asumé. Son langage stylistique futuriste lui confère égalemnt de la clareté à l'extérieur et une ambiance "lounge" à l'intérieur.</p> 
+				<p>Aménagée sous le signe de la légèreté, elle se démarque par l'emploi de matériaux durables et par une foison de détails fonctionnnels. Une voiture novatrice qui mise sur l'individualité.</p>
 				</div>
-				<img class="width" src="./img/back.png" alt="back of car">
+				<button onclick="divart('art2'); " href="#"> En savoir + </button> 
+				
+
 			</article>
 			<!-- ARTICLE 3 -->
-			<article id="article3">
-			<div class="width">
-				<h2>CONCUE POUR L'EMOTION</h2>
-				<h3>Matériaux exclusifs</h3>
-				<p>Chaque détail impréssionne : alors qu'à l'extérieur, ce sont des peintures exceptionnelles qui mettent en valeur l'allure de la nouvelle BMW série 8 Coupé, à l'intérieur, ce sont des matériaux luxueux associés a des surpiq
-				ûres contrastées élégantes et des éléments décoratifs</p>
-			</div>
-			<!-- Bloc Image -->
-			<div id="blocart3">
+			<article>
+				<div class="arthidden">
+					<h2>CONCUE POUR L'EMOTION</h2>
+					<h3>Matériaux exclusifs</h3>
+				</div>
+				<!-- Bloc Image -->
+				<div id="art3">
 				<!-- First Image Bloc -->
-				<div class="bloc bloc1">
-					<img src="img/car-4.png" alt="">
-					<img src="img/car-4.png" alt="">
+					<div class="imgbloc">
+						<a target="_blank" href="./img/speed.png"><img src="./img/speed.png"></a>
+						<a target="_blank" href="./img/break.png"><img src="./img/break.png"></a>
+					</div>
+					<!-- Second Image Bloc -->
+					<div class="imgbloc">
+						<a target="_blank" href="./img/bmw.png"><img src="./img/bmw.png"></a>
+						<a target="_blank" href="./img/car.png"><img src="./img/car.png"></a>
+					</div>
 				</div>
-				<!-- Second Image Bloc -->
-				<div class="bloc">
-					<img src="img/car-4.png" alt="">
-					<img src="img/car-4.png" alt="">
+				<div id="art3para">
+
+				<div class="hiddenart">
+					<h2>CONCUE POUR L'EMOTION</h2>
+					<h3>Matériaux exclusifs</h3>
 				</div>
-			</div>
+					<p>Chaque détail impréssionne : alors qu'à l'extérieur, ce sont des peintures exceptionnelles qui mettent en valeur l'allure de la nouvelle BMW série 8 Coupé, à l'intérieur, ce sont des matériaux luxueux associés a des surpiqûres contrastées élégantes et des éléments décoratifs</p>
+				</div>
+				<button onclick="divart('art3para'); " href="#"> En savoir + </button> 
 			</article>
 		</section>
 		<!-- SECTION 2 -->
 		<section id="section2">
-			<div class="width">
-				<h2>Réservez votre essai gratuit</h2>
-				<h3>Nouveau MCAR-I crossover</h3>
-			</div>
 			<!-- Form -->
-			<form method="post" enctype="text/plain">
-				<!-- First name -->
-				<input type="text" name="Prénom" autocomplete="off" required placeholder="Prénom*">
-				<!-- Name -->
-				<input type="text" name="Nom" autocomplete="off" required placeholder="Nom*">
+			<form action="https://gmail.us3.list-manage.com/subscribe/post?u=400896d25429f39f0371e9722&amp;id=9563b22b13" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<h1>Reservez votre essai</h1>
+				<h2>Nouveau MCAR-I crossover</h2>
+				<!-- Prenom -->
+				<input type="text" value="" name="FNAME" placeholder="Prénom*">
+				<!-- Nom -->
+				<input type="text" value="" name="LNAME" placeholder="Nom*">
 				<!-- Email -->
-				<input type="email" name="Email" autocomplete="off" required placeholder="Email*">
-				<!-- Postal-->
-				<input type="text" name="Postal" autocomplete="off" required placeholder="Code Postal*" pattern="[0-9]{5}">
-				<!-- Phone -->
-				<input type="tel" name="Téléphone" autocomplete="off" pattern="[0-9]{10}" required placeholder="Téléphone">
-				<!-- Button Submit -->
-				<input type="submit" value="Réservez mon essai" action="mailto:nadji.soulaimana@gmail.com" name="submit">
+				<input type="email" value="" name="EMAIL" placeholder="Email*">
+				<!-- Telephone -->
+				<input type="text" name="PHONE" placeholder="Téléphone*">
+				<!-- Code Postal -->
+				<input type="text" value="" name="MMERGE3" placeholder="Code Postal*">
+				<!-- Boutton submit-->
+				<input type="submit" value="Réserver mon essai" name="subscribe">
 			</form>
 		</section>
 	</main>
 	<!-- FOOTER -->
 	<footer>
-		<!-- BLOC 1 -->
-		<div id="bottom">
-			<div class="footbloc">
-				<h4>Univers MCAR</h4>
+		<div id="bloc1">
+			<!-- BLOC 1 -->
+			<div>
 				<!-- LISTE 1 -->
+				<h4>Univers MCAR</h4>
 				<ul></a>
 					<li><a href="#">MCAR Newsletter</a></li>
 					<li><a href="#">MCAR Group</a></li>
@@ -117,16 +131,16 @@
 				</ul>
 			</div>
 			<!-- BLOC 2 -->
-			<div class="footbloc">
-				<h4>Conditions générales d'utilisation</h4>
+			<div id="bloc2">
 				<!-- LISTE 2 -->
 				<ul>
+				<h4>Conditions générales d'utilisation</h4>
 					<li><a href="#">Cookies<a></li>
 					<li><a href="#">Consommations et émissions<a></li>
 					<li><a href="#">Mentions légales<a></li>
 					<li><a href="#">Conditions générales d'achat<a></li>
 					<li><a href="#">Protection des données<a></li>
-				</ul>
+				</ul>	
 			</div>
 		</div>
 		<!-- PUB -->
@@ -136,6 +150,9 @@
 			<a href="https://www.linkedin.com/"><img src="./img/LinkedIn.png" alt="LinkedIn"></a>
 			<a href="https://twitter.com/"><img src="./img/twitter.png" alt="Twitter"></a>
 		</div>
-		</footer>
+	</footer>
+
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript' src='./js/java.js'></script>
 </body>
 </html>
