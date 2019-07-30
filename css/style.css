@@ -35,17 +35,27 @@ height: 60vw;
 
 #inheader a{
 	width: 155px;
-	padding: 2.5%;
+	padding: 1%;
+	display: flex;
 	background-color: #FFF;
 	margin: 1% auto 0 auto;
 	cursor: pointer;
 	text-decoration: none;
 	color : #000;
-	margin-top: 740px;
-
+	border-radius: 4px;
 }
-	#inheader a img{
-		width: 5%;
+	#inheader a:hover{
+	opacity: 0.5;
+	}
+
+	a span{
+		padding: 1px;
+		margin-top: 2px;
+		margin: auto;
+	}
+
+	 a img{
+		width: 15%;
 	}
 
 
@@ -192,6 +202,7 @@ button{
 /* Minimum est la résolution à l'IPAD (techniquement un laptop ou autre connerie du genre */
 
 @media screen and (min-width: 1025px){
+
  /* ARTICLE */
 
 .arthidden{
@@ -218,10 +229,13 @@ button{
 }
 
 /* SECTION 1 */
+
 #section1{
 	width:100%;
 }
+
 /* ARTICLE */
+
 article{
 	margin: 0 auto;
 	padding: 0;
@@ -248,5 +262,8 @@ div.bloc1 {
 div.pub{
 	padding: 60px 2px;
 }
-
+#inheader a{
+	margin-left: 80%;
+	margin-top: 37%;
+}
 }
