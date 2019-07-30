@@ -78,6 +78,10 @@ article{
 		display: none;
 	}
 
+	.hiddenart{
+		display: none;
+	}
+
 button {
 	width: 155px;
 	padding: 2.5%;
@@ -173,13 +177,18 @@ button{
 	display: none;
 }
  .hiddenart{
- 	display: none;
+ 	display: block;
+ }
+ .arthidden{
+ 	display:none;
  }
 }
 
 /* Minimum est la résolution à l'IPAD (techniquement un laptop ou autre connerie du genre */
 
 @media screen and (min-width: 1025px){
+ /* ARTICLE */
+
 .arthidden{
 	display: none;
 }
@@ -187,17 +196,30 @@ button{
 	display: block;
 }
 
-.art-a{
+#art-a{
 	display: flex;
 	flex-direction: row-reverse;
 }
-.art-b{
+#art-b{
 	display: flex;
 	flex-direction: row;
 }
-
+#art-c{
+	display: flex;
+	flex-direction: row-reverse;
+}
 #front,#back{
 	width:50%;
+}
+
+/* SECTION 1 */
+#section1{
+	width:100%;
+}
+/* ARTICLE */
+article{
+	margin: 0 auto;
+	padding: 0;
 }
 
 }
