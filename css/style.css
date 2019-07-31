@@ -282,6 +282,9 @@ article{
 form{
 	margin-left: 50%;
 }
+
+/* FOOTER */
+
 footer{
 	flex-direction: row;
 	justify-content: space-around;
@@ -295,13 +298,31 @@ footer{
  	justify-content: space-between;
 
 }
-div.bloc1 {list-style-type: none; 
+div.bloc1 {
+	list-style-type: none; 
 	padding: 60px 40px;
+
+}
+
+h4#rej{
+	padding-bottom: 10px;
+}
+
+h4.unicond{
+	width: 90%;
+	padding-bottom: 25px
+
+}
+
+li{
+	padding-bottom: 8px;
 }
 
 div.pub{
 	padding: 60px 2px;
 }
+
+
 #inheader a{
 	margin-left: 80%;
 	margin-top: 37%;
