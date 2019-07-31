@@ -1,3 +1,4 @@
+/* ALL**/
 *{
 	margin:0;
 	padding: 0;
@@ -64,7 +65,7 @@ height: 60vw;
 /* SECTION 1 */
 
 #section1{
-	width: 90%;
+	width: 100%;
 	margin: auto;
 }
 
@@ -75,7 +76,6 @@ article{
 	margin: 1% auto;
 	display: flex;
 	flex-direction: column;
-	border: 2px solid red;
 	border-radius: 4px;
 	padding: 10px;
 }
@@ -105,10 +105,12 @@ button {
 }
 /* ARTICLE 2 */
 
-	#art2 table{
-	border: 2px solid blue;
+	#art2{ 
 	border-radius: 4px;
+	margin: auto;
+
 }
+
 
 
 /* ARTICLE 3 */
@@ -118,7 +120,6 @@ button {
 	flex-direction: row;
 }
 .imgbloc{
-	border: 2px solid red;
 	width: 100%;
 }
 	.imgbloc img{
@@ -141,7 +142,6 @@ button {
 #title2{
 	color: #FFF;
 	padding-top: 10%;
-	border: 2px solid blue;
 }
 /* FORM */
 
@@ -149,7 +149,6 @@ form{
 	display: flex;
 	flex-direction: column;
 	padding: 13% 0;
-	border:2px solid green;
 }
 
 input[type=text], input[type=email], input[type=tel] {
@@ -263,7 +262,7 @@ div.pub{
 	flex-direction: row-reverse;
 }
 #front,#back{
-	width:50%;
+	width: 50%;
 }
 
 /* SECTION 1 */
@@ -277,6 +276,10 @@ div.pub{
 article{
 	margin: 0 auto;
 	padding: 0;
+}
+
+
+#art3para,#art3{width: 100%;
 }
 
 form{
