@@ -138,14 +138,18 @@ button {
 	background-size: cover;
 }
 
+#title2{
+	color: #FFF;
+	padding-top: 10%;
+	border: 2px solid blue;
+}
 /* FORM */
 
 form{
 	display: flex;
 	flex-direction: column;
-	margin-left: auto;
 	padding: 13% 0;
-	/*border:2px solid green;*/
+	border:2px solid green;
 }
 
 input[type=text], input[type=email], input[type=tel] {
@@ -175,9 +179,16 @@ footer{
 	display: flex;
 	flex-direction: column-reverse;
 }
-
-
-
+#bloc li{
+	list-style-type: none;
+}
+#bloc li a{
+	text-decoration: none;
+	color: #FFF;
+}
+.pub a img{
+	width: 5%;
+}
 
 
 
@@ -197,6 +208,33 @@ button{
  .arthidden{
  	display:none;
  }
+/* COPY OF NABIL'S CODE */
+
+footer{
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+ div#bloc{
+ 	margin-left: -100px;
+ 	border: 2px solid grey;
+	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-between;
+
+}
+
+div.bloc1 {
+	padding: 60px 40px;
+}
+
+div.pub{
+	padding: 60px 2px;
+}
+/* FIN */
+.pub a img{
+	width: 30%;
+	}
 }
 
 /* Minimum est la résolution à l'IPAD (techniquement un laptop ou autre connerie du genre */
@@ -241,6 +279,9 @@ article{
 	padding: 0;
 }
 
+form{
+	margin-left: 50%;
+}
 footer{
 	flex-direction: row;
 	justify-content: space-around;
@@ -254,8 +295,7 @@ footer{
  	justify-content: space-between;
 
 }
-
-div.bloc1 {
+div.bloc1 {list-style-type: none; 
 	padding: 60px 40px;
 }
 
@@ -266,4 +306,5 @@ div.pub{
 	margin-left: 80%;
 	margin-top: 37%;
 }
+
 }
