@@ -240,12 +240,12 @@ button{
 /* COPY OF NABIL'S CODE */
 
 footer{
+	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
 
  div#bloc{
- 	margin-left: -100px;
 	display: flex;
  	flex-direction: row;
  	justify-content: space-between;
@@ -318,45 +318,64 @@ form{
 /* FOOTER */
 
 footer{
+	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	box-sizing: border-box;
+	border: 2px solid green;
 }
 
  div#bloc{
- 	margin-left: -100px;
-	display: flex;
- 	flex-direction: row;
- 	justify-content: space-between;
-
+ 	width: 70%;
+ 	box-sizing: border-box;
+    border: 2px solid red;
+ 	
 }
-div.bloc1 {
-	list-style-type: none; 
-	padding: 60px 40px;
 
+div.bloc1 {
+
+	border: 2px solid blue;
 }
 
 h4#rej{
-	padding-bottom: 10px;
+
+	
 }
 
 h4.unicond{
-	width: 90%;
-	padding-bottom: 25px
+	
 
 }
 
 li{
-	padding-bottom: 8px;
+	
 }
 
 div.pub{
-	padding: 60px 2px;
+
+	
 }
 
-
+/* Faire un essai */
 #inheader a{
 	margin-left: 80%;
-	margin-top: 37%;
+	margin-top: 12.5%;
 }
+
+/* FONT */
+h1,h2,h3,h4{
+	font-family: 'Playfair Display', serif;
+}
+/* HEADER */
+header h1{
+	width: 70%;
+	margin-top: 16%;
+	margin-left: 5%;
+	
+	
+		}
+header h2{
+	margin-left: 5%;
+		}
+		
 
 }
