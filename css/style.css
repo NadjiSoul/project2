@@ -220,7 +220,6 @@ footer{
 
  div#bloc{
  	margin-left: -100px;
- 	border: 2px solid grey;
 	display: flex;
  	flex-direction: row;
  	justify-content: space-between;
@@ -299,7 +298,6 @@ footer{
 
  div#bloc{
  	margin-left: -100px;
- 	border: 2px solid grey;
 	display: flex;
  	flex-direction: row;
  	justify-content: space-between;
