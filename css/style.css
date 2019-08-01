@@ -108,12 +108,22 @@ button {
 	#art2{ 
 	border-radius: 4px;
 	margin: auto;
-
+	border-collapse: collapse;
+}
 	td{
-		
+		border-bottom: 2px solid #000;
 	}
 
-}
+	.border{
+		border: none;
+	}
+
+	.align,.pad{
+		padding: 7% 0;
+	}
+	.align{
+		text-align: right;
+	}
 
 
 
@@ -178,9 +188,19 @@ input[type=submit]{
 /* FOOTER */
 
 footer{
-	background-color: #000; color: #FFF;
+	background-color: #000; 
+	color: #FFF;
 	display: flex;
 	flex-direction: column-reverse;
+}
+
+#bloc{
+	display:flex;
+	margin: auto;
+}
+
+.bloc1 h4, .pub h4{
+	padding-bottom: 5%;
 }
 #bloc li{
 	list-style-type: none;
@@ -189,11 +209,17 @@ footer{
 	text-decoration: none;
 	color: #FFF;
 }
-.pub a img{
-	width: 5%;
+.icone a img{
+	width: 100%;
 }
-
-
+.pub{
+	display: flex;
+	margin: auto;
+}
+.icone{
+	display: flex;
+	flex-direction: column;
+}
 
 /* Minimum est la résolution de l'IPAD */
 
