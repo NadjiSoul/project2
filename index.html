@@ -22,17 +22,19 @@
 			<!-- ARTICLE 1 -->
 			<article id="art-a">
 				<div class="arthidden">
-				<h2>VISIONNAIRE SOUS TOUS LES ANGLES</h2>
+				<h2 class="vic">VISIONNAIRE SOUS TOUS LES ANGLES</h2>
 				<h3>Style futuriste</h3>
 				</div>
 				<img id="front" src="./img/front.png">
 				<div id="art1">
 					<div class="hiddenart">
-						<h2>VISIONNAIRE SOUS TOUS LES ANGLES</h2>
+						<h2 class="vic">VISIONNAIRE SOUS TOUS LES ANGLES</h2>
 						<h3>Style futuriste</h3>
 					</div>
+					<div id="amé">
 						<p>La BMW i3 ne suit aucune tendance, elle est l'expression d'un style de vie asumé. Son langage stylistique futuriste lui confère égalemnt de la clareté à l'extérieur et une ambiance "lounge" à l'intérieur.</p> 
-						<p>Aménagée sous le signe de la légèreté, elle se démarque par l'emploi de matériaux durables et par une foison de détails fonctionnnels. Une voiture novatrice qui mise sur l'individualité.</p>
+						<p>Aménagée sous le signe de la légèreté, elle se démarque par l'emploi de matériaux durables et par une foison de détails fonctionnnels. Une voiture novatrice qui mise l'individualité.</p>
+					</div>
 				</div>
 
 					<!-- Utilisation du JavaScript afin d'afficher ou cacher le contenu (texte) -->
@@ -68,7 +70,7 @@
 			<!-- ARTICLE 3 -->
 			<article id="art-c">
 				<div class="arthidden">
-					<h2>CONCUE POUR L'EMOTION</h2>
+					<h2 class="vic">CONCUE POUR L'EMOTION</h2>
 					<h3>Matériaux exclusifs</h3>
 				</div>
 				<!-- Bloc Image -->
@@ -84,13 +86,15 @@
 						<a target="_blank" href="./img/car.png"><img src="./img/car.png"></a>
 					</div>
 				</div>
-				<div id="art3para">
 
+				<div id="art3para">
 					<div class="hiddenart">
-						<h2>CONCUE POUR L'EMOTION</h2>
+						<h2 class="vic">CONCUE POUR L'EMOTION</h2>
 						<h3>Matériaux exclusifs</h3>
-				</div>
+				    </div>
+
 					<p>Chaque détail impréssionne : alors qu'à l'extérieur, ce sont des peintures exceptionnelles qui mettent en valeur l'allure de la nouvelle BMW série 8 Coupé, à l'intérieur, ce sont des matériaux luxueux associés a des surpiqûres contrastées élégantes et des éléments décoratifs</p>
+
 				</div>
 				<!-- Utilisation du JavaScript afin d'afficher ou cacher le contenu (texte) -->
 				<button onclick="divart('art3para'); " href="#"> En savoir + </button> 
@@ -99,7 +103,7 @@
 		<!-- SECTION 2 -->
 		<section id="section2">
 		<div id="title2">
-			<h1>Reservez votre essai</h1>
+			<h1>Réservez votre essai gratuit</h1>
 			<h2>Nouveau MCAR-I crossover</h2>
 		</div>
 			<!-- Form -->
@@ -117,6 +121,13 @@
 				<input type="text" name="MERGE4" id="MERGE4" placeholder="Téléphone*" required>
 				<!-- Code Postal -->
 				<input type="text" name="MMERGE3" placeholder="Code Postal*" required>
+				<!-- Checkbox -->
+				<div id="check">
+					<div class="check">
+						<input type="checkbox" id="scales" name="scales" checked required>
+					</div>
+         			<label>J'accepte les <a class="cond" href="">conditions générales d'utilisations</a></label>
+         		</div>
 				<!-- Boutton submit-->
 				<input type="submit" value="Réserver mon essai" name="subscribe">
 			</form>

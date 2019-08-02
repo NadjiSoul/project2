@@ -183,7 +183,7 @@ input[type=text], input[type=email], input[type=tel] {
 input[type=submit]{
 	width: 150px;
 	background-color: #000;
-	margin:auto;
+	margin: 1% auto;
 	padding: 12px 15px;
 	color: white;
 	border:none;
@@ -193,7 +193,16 @@ input[type=submit]{
 		color:#000;
 		cursor: pointer;
 	}
-
+#check{
+	display: flex;
+	margin: auto;
+}
+.check{
+	width: 3%;
+}
+.cond{
+	text-decoration: none;
+}
 /* FOOTER */
 
 footer{
@@ -204,13 +213,10 @@ footer{
 }
 
 #bloc{
-	display:flex;
 	margin: auto;
 }
 
-.bloc1 h4, .pub h4{
-	padding-bottom: 5%;
-}
+
 #bloc li{
 	list-style-type: none;
 }
@@ -222,7 +228,6 @@ footer{
 	width: 100%;
 }
 .pub{
-	display: flex;
 	margin: auto;
 }
 .icone{
@@ -325,43 +330,37 @@ form{
 }
 
 /* FOOTER */
+#bloc{
+	margin:0;
+}
 
 footer{
 	display: flex;
 	flex-direction: row;
 	box-sizing: border-box;
-	border: 2px solid green;
 }
 
  div#bloc{
- 	width: 70%;
+ 	width: 50%;
  	box-sizing: border-box;
-    border: 2px solid red;
  	
 }
 
 div.bloc1 {
-
-	border: 2px solid blue;
+	width: 100%;
+}
+h4.unicond{
+	padding-bottom: 20px;
+}
+li{
+	padding-bottom: 5px;
+}
+div.pub{
+	margin-top: 0%;
 }
 
 h4#rej{
-
-	
-}
-
-h4.unicond{
-	
-
-}
-
-li{
-	
-}
-
-div.pub{
-
-	
+	padding-bottom: 5px;
 }
 
 /* Faire un essai */
@@ -382,6 +381,54 @@ header h1{
 header h2{
 	margin-left: 5%;
 		}
-		
 
+/* FONT */
+
+p{
+	width: 70%;
+	font-size: 12pt;
+	margin-top: 10px;
+}
+div#art1{
+	margin: auto;
+	margin-left: 55px;
+
+}
+div#amé{
+	padding-top: 35px;
+}
+
+h2.vic{
+	width: 55%;
+	font-weight: normal;
+	font-size: 20pt;
+}
+
+h3{
+	font-weight: normal;
+	font-size: 10pt;
+
+}
+
+div#art3para{
+	margin: auto;
+	margin-left: 55px;
+}		
+div#art3para p{
+	padding-top: 35px;
+}
+div#title2 h1{
+	color: black;
+	font-size: 35pt;
+	margin-left: 5%;
+
+
+}
+div#title2 h2{
+	color: black;
+	font-size: 20pt;
+	font-weight: normal;
+	margin-left: 5%;
+
+}
 }
