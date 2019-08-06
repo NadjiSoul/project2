@@ -24,16 +24,18 @@ header{
 width: 100%;
 background-image: url('../img/header.png');
 background-size: cover;
-height: 60vw;
+height: 60vh;
 }
 		.logo{
-			width:10%;
+			width:7%;
 			display: flex;
 			margin: auto;
 		}
 		header h1{
-			font-size:5vw;
+			margin-top: 15%;
+			font-size: 5.5vw;
 			color: #FFF;
+			line-height: 1em;
 		}
 		header h2{
 			font-size: 4vw;
@@ -48,7 +50,7 @@ height: 60vw;
 	padding: 1%;
 	display: flex;
 	background-color: #FFF;
-	margin: 1% auto 0 auto;
+	margin: 10% auto 0 auto;
 	cursor: pointer;
 	text-decoration: none;
 	color : #000;
@@ -160,18 +162,31 @@ button {
 #section2{
 	background-image: url('../img/form.png');
 	background-size: cover;
+	height: 100vh;
 }
 
 #title2{
-	color: #FFF;
-	padding-top: 10%;
+	padding-top: 3%;
+}
+
+div#title2 h1{
+	font-size: 35pt;
+	margin-left: 5%;
+
+
+}
+div#title2 h2{
+	font-size: 20pt;
+	font-weight: normal;
+	margin-left: 5%;
+
 }
 /* FORM */
 
 form{
 	display: flex;
 	flex-direction: column;
-	padding: 13% 0;
+	padding: 5% 0;
 }
 
 input[type=text], input[type=email], input[type=tel] {
@@ -283,8 +298,26 @@ div.pub{
 
 @media screen and (min-width: 1025px){
 
- /* ARTICLE */
+/* HEADER */
 
+header{
+	background-position: 50%;
+	height: 100vh;
+}
+
+header h1{
+	width: 70%;
+	margin-top: 13%;
+	margin-left: 5%;
+	
+	
+		}
+header h2{
+	margin-left: 5%;
+		}
+
+
+/* ARTICLE */
 .arthidden{
 	display: none;
 }
@@ -322,9 +355,13 @@ article{
 }
 
 
-#art3para,#art3{width: 100%;
+#art3para,#art3{
+	width: 100%;
 }
 
+#section2{
+	background-position: 50%;
+}
 form{
 	margin-left: 50%;
 }
@@ -366,21 +403,13 @@ h4#rej{
 /* Faire un essai */
 #inheader a{
 	margin-left: 80%;
-	margin-top: 12.5%;
+	margin-top: 6.2%;
+	border-radius: 0;
+	position: fixed;
 }
 
 
-/* HEADER */
-header h1{
-	width: 70%;
-	margin-top: 16%;
-	margin-left: 5%;
-	
-	
-		}
-header h2{
-	margin-left: 5%;
-		}
+
 
 /* FONT */
 
@@ -394,11 +423,11 @@ div#art1{
 	margin-left: 55px;
 
 }
-div#amé{
+div#paragraph{
 	padding-top: 35px;
 }
 
-h2.vic{
+.hiddenart h2, .arthidden h2{
 	width: 55%;
 	font-weight: normal;
 	font-size: 20pt;
@@ -410,25 +439,14 @@ h3{
 
 }
 
-div#art3para{
-	margin: auto;
+#art3para p, #art3para .hiddenart{
 	margin-left: 55px;
-}		
+}
+#art3para{ 
+	margin:auto;
+}
 div#art3para p{
 	padding-top: 35px;
 }
-div#title2 h1{
-	color: black;
-	font-size: 35pt;
-	margin-left: 5%;
 
-
-}
-div#title2 h2{
-	color: black;
-	font-size: 20pt;
-	font-weight: normal;
-	margin-left: 5%;
-
-}
 }
