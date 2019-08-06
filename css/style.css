@@ -418,12 +418,13 @@ p{
 	font-size: 12pt;
 	margin-top: 10px;
 }
-div#art1{
+#art1,#art3para{
 	margin: auto;
-	margin-left: 55px;
-
 }
-div#paragraph{
+#art1 .hiddenart, #paragraph, #art3para p, #art3para .hiddenart{
+	margin-left: 55px;
+}
+div#paragraph, #art3para p{
 	padding-top: 35px;
 }
 
@@ -437,16 +438,6 @@ h3{
 	font-weight: normal;
 	font-size: 10pt;
 
-}
-
-#art3para p, #art3para .hiddenart{
-	margin-left: 55px;
-}
-#art3para{ 
-	margin:auto;
-}
-div#art3para p{
-	padding-top: 35px;
 }
 
 }
